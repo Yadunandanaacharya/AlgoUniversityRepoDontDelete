@@ -4,15 +4,23 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /*
-input:
 13 11
 4 3 4 4 9 12 20 14 2 12 12 11 6
+ans: 1 2 3
 
-output:
-1 2 3
+13 11
+4 9 12 20 14 2 12 12 11 6 4 3 4
+ans:1 12 13
+
+13 11
+4 9 12 20 14 2 12 12 11 6 6 3 4
+ans:1 12 13
+
+13 11
+4 9 12 20 14 2 12 12 11 6 6 3 1
+ans:1 12 13
  */
-
-public class p9TreasureRoom4 {
+public class p9TreasureRoom5 {
     public static void main(String[] args) throws Exception{
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
