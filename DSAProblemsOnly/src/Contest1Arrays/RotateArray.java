@@ -1,4 +1,4 @@
-package A2Arrays.Contest1Arrays;
+package Contest1Arrays;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

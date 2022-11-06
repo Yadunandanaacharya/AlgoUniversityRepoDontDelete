@@ -33,11 +33,11 @@
   </component>
   <component name="RunManager" selected="Application.FillWith0s">
     <configuration name="FillWith0s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.Contest1Arrays.FillWith0s" />
+      <option name="MAIN_CLASS_NAME" value="Contest1Arrays.FillWith0s" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2Arrays.Contest1Arrays.*" />
+          <option name="PATTERN" value="Contest1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -46,11 +46,11 @@
       </method>
     </configuration>
     <configuration name="MaxDivideByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.Contest1Arrays.MaxDivideByK" />
+      <option name="MAIN_CLASS_NAME" value="Contest1Arrays.MaxDivideByK" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2Arrays.Contest1Arrays.*" />
+          <option name="PATTERN" value="Contest1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +59,11 @@
       </method>
     </configuration>
     <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.Contest1Arrays.RotateArray" />
+      <option name="MAIN_CLASS_NAME" value="Contest1Arrays.RotateArray" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2Arrays.Contest1Arrays.*" />
+          <option name="PATTERN" value="Contest1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
