@@ -43,39 +43,34 @@ public class p9TreasureRoom3 {
 //        result = ThreeSumIndicesOfArray(inputArray, W);
         result = findThreeSum(inputArray, W);
 
+        if (result!=null) {
+            Arrays.sort(result);
+                System.out.print(result[0] + " "+result[1] + " "+result[2]);
+        }
+
         //this is only best way possible get all numbers whose sum is W later get indices of those numbers below here
         //this will be like o(n^2)+o(n^2)=2(o(n^2)) finally o(n^2) only
-        boolean stopper = false;
-        List<Integer> result2 = new ArrayList<>(3);
-        for(int i =0;i<inputArray.length;i++) {
-            if(stopper)
-                stopper = false;
-            for(int j=0;j<result.length&& stopper==false;j++){
-                if(result[j] == inputArray[i] && stopper==false) {
-                    result2.add(i+1);
 
-                    stopper = true;
+        HashSet<Integer> setIs = new HashSet<>();
+        boolean hashSetFull = false;
+        if (result != null && result.length == 3) {
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j<result.length; j++) {
+                    if (inputArray[i] == result[j] && hashSetFull == false) {
+                        setIs.add(i+1);
+
+                        if (setIs.size() == 3)
+                            hashSetFull = true;
+                    }
                 }
             }
         }
 
-        if (result2.size() > 0) {
-            for (int i = 0; i < result2.size(); i++) {
-                System.out.print(result2.get(i) + " ");
+        if (setIs.size() == 3) {
+            for(int i :setIs){
+//                System.out.print(i + " ");
             }
         }
-        else {
-            System.out.println(-1);
-        }
-
-//        if(result != null && result.length > 0) {
-//            for (int i = 0; i < result.length; i++) {
-//                System.out.print(result[i] + " ");
-//            }
-//        }
-//        else {
-//            System.out.println(-1);
-//        }
     }
 
     public static int[] ThreeSumIndicesOfArray(int[] inputArray, int sum) {
@@ -118,9 +113,7 @@ public class p9TreasureRoom3 {
                     result[0] = nums[i];
                     result[1] = currentTarget - nums[j];
                     result[2] = nums[j];
-                    indices[0] = i+1;
-                    indices[1] = j+1;
-                    indices[2] = i+1;
+
                     threeSumIndicesFound = true;
                 } else {
                     existingNums.add(nums[j]);

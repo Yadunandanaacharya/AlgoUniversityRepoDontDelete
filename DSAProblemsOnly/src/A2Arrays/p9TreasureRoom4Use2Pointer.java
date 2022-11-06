@@ -1,8 +1,6 @@
 package A2Arrays;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
 /*
 Input
@@ -28,10 +26,15 @@ Output
 13 11
 3 4 4 4 4 4 4 4 4 4 4 4 4
 failing above test
+
+13 11
+4 9 12 20 14 2 12 12 11 6 6 3 1
+failing
  */
 
 public class p9TreasureRoom4Use2Pointer {
-    public static void main(String[] args) throws Exception{
+    public static void main (String[] args) throws java.lang.Exception
+    {
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
         int x = sc.nextInt();
@@ -68,14 +71,19 @@ public class p9TreasureRoom4Use2Pointer {
             }
         }
 
+        HashMap<Integer, ArrayList<Integer>> mapIs = new HashMap<>();
         if (ansFound && ansArray != null && ansArray.length == 3) {
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j<ansArray.length; j++) {
-                    if (arr[i] == ansArray[j] && hashSetFull == false) {
+                    if (arr[i] == ansArray[j] ) {
                         setIs.add(i+1);
 
-                        if (setIs.size() == 3)
-                            hashSetFull = true;
+                        if (mapIs.containsKey(ansArray[j])){
+
+                        }
+//                        mapIs.put(ansArray[j],Arrays.asList(i));
+//                        if (setIs.size() == 3)
+//                            hashSetFull = true;
                     }
                 }
             }

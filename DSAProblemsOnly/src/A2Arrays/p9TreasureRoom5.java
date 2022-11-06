@@ -31,6 +31,7 @@ public class p9TreasureRoom5 {
         }
         HashMap<Integer,Integer> map = new HashMap<>();
         boolean check=false;
+        int[] ans = new int[3];
         for(int i=0;i<n;i++){
             int sum=x-arr[i];
             for(int j=i+1;j<n-1;j++){
@@ -39,6 +40,10 @@ public class p9TreasureRoom5 {
                 if(map.containsKey(sum1)){
                     int y=map.get(sum1);
                     System.out.print((i+1)+" "+(y+1)+" "+(j+1));
+
+                    ans[0] = i+1;
+                    ans[1] = j+1;
+                    ans[2] = y + 1;
                     check=true;
                     break;
                 }

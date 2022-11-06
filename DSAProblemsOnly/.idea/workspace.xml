@@ -31,13 +31,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="ThreeSumUse2Pointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopicWiseProblems.TwoPointerProblems.ThreeSumUse2Pointer" />
+  <component name="RunManager" selected="Application.FillWith0s">
+    <configuration name="FillWith0s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A2Arrays.Contest1Arrays.FillWith0s" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TopicWiseProblems.TwoPointerProblems.*" />
+          <option name="PATTERN" value="A2Arrays.Contest1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -45,12 +45,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopicWiseProblems.TwoPointerProblems.TwoSumInSortedArray" />
+    <configuration name="MaxDivideByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A2Arrays.Contest1Arrays.MaxDivideByK" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TopicWiseProblems.TwoPointerProblems.*" />
+          <option name="PATTERN" value="A2Arrays.Contest1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p9TreasureRoom4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.p9TreasureRoom4" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A2Arrays.Contest1Arrays.RotateArray" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2Arrays.*" />
+          <option name="PATTERN" value="A2Arrays.Contest1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p9TreasureRoom4Use2Pointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.p9TreasureRoom4Use2Pointer" />
+    <configuration name="p9ChangedWorking4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A2Arrays.p9ChangedWorking4" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p9TreasureRoom4Use2Pointer" />
+        <item itemvalue="Application.FillWith0s" />
+        <item itemvalue="Application.MaxDivideByK" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.p9ChangedWorking4" />
         <item itemvalue="Application.p9TreasureRoom5" />
-        <item itemvalue="Application.ThreeSumUse2Pointer" />
-        <item itemvalue="Application.p9TreasureRoom4" />
-        <item itemvalue="Application.TwoSumInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -173,30 +173,120 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
-          <line>84</line>
+          <line>92</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
-          <line>90</line>
+          <line>98</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
-          <line>89</line>
+          <line>97</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
-          <line>66</line>
+          <line>69</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
-          <line>85</line>
+          <line>93</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4WORKING.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4WORKING.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9ChangedWorking4.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/p9ChangedWorking4.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/MaxDivideByK.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSAProblemSolving$MaxDivideByK.ic" NAME="MaxDivideByK Coverage Results" MODIFIED="1667642373896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>A2Arrays.Contest1Arrays.*</FILTER>
+    </SUITE>
   </component>
 </project>
