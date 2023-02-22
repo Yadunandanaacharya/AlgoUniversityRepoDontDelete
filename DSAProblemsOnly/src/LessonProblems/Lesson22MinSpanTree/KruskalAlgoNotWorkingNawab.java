@@ -48,10 +48,6 @@ public class KruskalAlgoNotWorkingNawab {
         public int compareTo(Node node) {
             return (this.weight - node.weight);
         }
-
-        public int GetWeight() {
-            return this.weight;
-        }
     }
 
     public static  class DisjointUnionSet {
