@@ -4,6 +4,15 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/A_Elections" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/B_Make_it_Divisible_by_25" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/C_Save_More_Mice" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/D1_All_are_Same" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/D2_Half_of_Same" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/E_Gardener_and_Tree" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/F_Red_Black_Number" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Codeforces Round 748 Div 3/G_Changing_Brackets" />
+      <excludeFolder url="file://$MODULE_DIR$/Codeforces - Educational Codeforces Round 142 Rated for Div 2/F2_Graph_Coloring_hard_version" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

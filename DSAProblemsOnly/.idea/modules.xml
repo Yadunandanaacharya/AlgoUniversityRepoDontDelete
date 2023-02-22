@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/A_Elections/A_Elections.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/A_Elections/A_Elections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/B_Make_it_Divisible_by_25/B_Make_it_Divisible_by_25.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/B_Make_it_Divisible_by_25/B_Make_it_Divisible_by_25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/C_Save_More_Mice/C_Save_More_Mice.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/C_Save_More_Mice/C_Save_More_Mice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/D1_All_are_Same/D1_All_are_Same.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/D1_All_are_Same/D1_All_are_Same.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/D2_Half_of_Same/D2_Half_of_Same.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/D2_Half_of_Same/D2_Half_of_Same.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSAProblemsOnly.iml" filepath="$PROJECT_DIR$/DSAProblemsOnly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/E_Gardener_and_Tree/E_Gardener_and_Tree.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/E_Gardener_and_Tree/E_Gardener_and_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Educational Codeforces Round 142 Rated for Div 2/F2_Graph_Coloring_hard_version/F2_Graph_Coloring_hard_version.iml" filepath="$PROJECT_DIR$/Codeforces - Educational Codeforces Round 142 Rated for Div 2/F2_Graph_Coloring_hard_version/F2_Graph_Coloring_hard_version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/F_Red_Black_Number/F_Red_Black_Number.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/F_Red_Black_Number/F_Red_Black_Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/G_Changing_Brackets/G_Changing_Brackets.iml" filepath="$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/G_Changing_Brackets/G_Changing_Brackets.iml" />
     </modules>
   </component>
 </project>
