@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.KruskalScaler">
+  <component name="RunManager">
     <configuration name="KruskalAlgoNotWorkingNawab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalAlgoNotWorkingNawab" />
       <module name="DSAProblemsOnly" />
@@ -68,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KruskalScaler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalScaler" />
+    <configuration name="KruskalScalerForUnderstanding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalScalerForUnderstanding" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KruskalSparsh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalSparsh" />
+    <configuration name="KruskalSparshWorking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalSparshWorking" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
@@ -109,10 +109,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KruskalScaler" />
+        <item itemvalue="Application.KruskalSparshWorking" />
+        <item itemvalue="Application.KruskalScalerForUnderstanding" />
         <item itemvalue="Application.KruskalProgramiz" />
         <item itemvalue="Application.KruskalAlgoNotWorkingNawab" />
-        <item itemvalue="Application.KruskalSparsh" />
         <item itemvalue="Application.RepairRoads" />
       </list>
     </recent_temporary>
@@ -1334,37 +1334,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LessonProblems/ObjectSortImp/ObjectSort.java</url>
-          <line>78</line>
+          <line>75</line>
           <option name="timeStamp" value="426" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
-          <line>102</line>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>124</line>
           <option name="timeStamp" value="428" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
-          <line>104</line>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>126</line>
           <option name="timeStamp" value="429" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
-          <line>113</line>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>136</line>
           <option name="timeStamp" value="434" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
-          <line>108</line>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>131</line>
           <option name="timeStamp" value="435" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>71</line>
           <option name="timeStamp" value="437" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
-          <line>106</line>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>128</line>
           <option name="timeStamp" value="438" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1378,9 +1378,19 @@
           <option name="timeStamp" value="440" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalScaler.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalScalerForUnderstanding.java</url>
           <line>83</line>
           <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="444" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/InsertLinkdList.java</url>
@@ -1408,6 +1418,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparshWorking.java</url>
+          <line>82</line>
+          <properties class="LessonProblems.Lesson22MinSpanTree.KruskalSparshWorking.DisjointUnionSet" method="AddEdge">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="443" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
