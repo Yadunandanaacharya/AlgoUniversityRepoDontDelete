@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test" type="AutoCp" factoryName="AutoCp" editBeforeRun="true" singleton="false" show_console_on_std_err="false" show_console_on_std_out="false">
+    <option name="allowRunningInParallel" value="true" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="solutionFilePath" value="D:\GitHubCloneRepos\MyGitDontAddAnyFile\AlgoUniversityRepoDontDelete\DSAProblemsOnly\src\test.java" />
+    <method v="2" />
+  </configuration>
+</component>

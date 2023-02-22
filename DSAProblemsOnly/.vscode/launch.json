@@ -1,0 +1,622 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreatOrdial1",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.GreatOrdial1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreatOrdial2",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.GreatOrdial2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch JudginEye2",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.JudginEye2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch JudgingEye",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.JudgingEye",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch SnowFlake1",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.SnowFlake1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch SnowFlakeWithInputs",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.SnowFlakeWithInputs",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch SnowFlake_PepcodingReference",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.SnowFlake_PepcodingReference",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch SnowFlake_Problem",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.SnowFlake_Problem",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch TakingInputsInJavaExamples",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.TakingInputsInJavaExamples",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnholyConsult1",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.UnholyConsult1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnholyConsult2",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.UnholyConsult2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnholyConsult3_whileLoopUsed",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.UnholyConsult3_whileLoopUsed",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhiteLuckWarriorProblem",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.WhiteLuckWarriorProblem",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhiteLuckWarriror2",
+            "request": "launch",
+            "mainClass": "A0WarmupBunch1.WhiteLuckWarriror2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p29BracketMatch",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.AssignmentProblems.p29BracketMatch",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p60NGELeft",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.AssignmentProblems.p60NGELeft",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p60NextGreatLeft2",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.AssignmentProblems.p60NextGreatLeft2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p60PostFixEvalue",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.AssignmentProblems.p60PostFixEvalue",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p62MaxRectangle",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.AssignmentProblems.p62MaxRectangle",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch test222",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.AssignmentProblems.test222",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplementStack",
+            "request": "launch",
+            "mainClass": "A11StacksQueues.SessionProblems.ImplementStack",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p68Fibonacci",
+            "request": "launch",
+            "mainClass": "A12Recursion.p68Fibonacci",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p10ClosestRefuge2",
+            "request": "launch",
+            "mainClass": "A2Arrays.p10ClosestRefuge2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p10ClosestRefugee1",
+            "request": "launch",
+            "mainClass": "A2Arrays.p10ClosestRefugee1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7Square_sortedArray1",
+            "request": "launch",
+            "mainClass": "A2Arrays.p7Square_sortedArray1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p8TreasureRoomEasy1",
+            "request": "launch",
+            "mainClass": "A2Arrays.p8TreasureRoomEasy1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9ChangedWorking4",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9ChangedWorking4",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9TreasureRoom1",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9TreasureRoom1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9TreasureRoom2",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9TreasureRoom2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9TreasureRoom3",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9TreasureRoom3",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9TreasureRoom4Use2Pointer",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9TreasureRoom4Use2Pointer",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9TreasureRoom4WORKING",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9TreasureRoom4WORKING",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p9TreasureRoom5",
+            "request": "launch",
+            "mainClass": "A2Arrays.p9TreasureRoom5",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p33MatrixRoatation",
+            "request": "launch",
+            "mainClass": "A3Matrix.p33MatrixRoatation",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p34MatrixTraversal",
+            "request": "launch",
+            "mainClass": "A3Matrix.p34MatrixTraversal",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p34PepcodingDifferentQuestion",
+            "request": "launch",
+            "mainClass": "A3Matrix.p34PepcodingDifferentQuestion",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch session3SnowPattern",
+            "request": "launch",
+            "mainClass": "A3Matrix.session3SnowPattern",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixBoundaryTraversal",
+            "request": "launch",
+            "mainClass": "A3MatrixSessionProblem.MatrixBoundaryTraversal",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixBoundaryTraversal2Swapnil",
+            "request": "launch",
+            "mainClass": "A3MatrixSessionProblem.MatrixBoundaryTraversal2Swapnil",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateAntiClock90",
+            "request": "launch",
+            "mainClass": "A3MatrixSessionProblem.RotateAntiClock90",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRowAndColSortedMatrix",
+            "request": "launch",
+            "mainClass": "A3MatrixSessionProblem.SearchInRowAndColSortedMatrix",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch SnakePatternMatrixPrint",
+            "request": "launch",
+            "mainClass": "A3MatrixSessionProblem.SnakePatternMatrixPrint",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransposeMatrix1",
+            "request": "launch",
+            "mainClass": "A3MatrixSessionProblem.TransposeMatrix1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p19SqrtOfN",
+            "request": "launch",
+            "mainClass": "A4SearchSort1.p19SqrtOfN",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p19SqrtOfN2",
+            "request": "launch",
+            "mainClass": "A4SearchSort1.p19SqrtOfN2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p25DirectBinarySeach",
+            "request": "launch",
+            "mainClass": "A4SearchSort1.p25DirectBinarySeach",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p35MatrixSearBinarySear3",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p35MatrixSearBinarySear3",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p35MatrixSearch",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p35MatrixSearch",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p35MatrixSearch2",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p35MatrixSearch2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7Sphinx4",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p7Sphinx4",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7SphinxRangeSum0",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p7SphinxRangeSum0",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7SphinxRangeSums1",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p7SphinxRangeSums1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7SphinxRangesSum2",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p7SphinxRangesSum2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7SphinxUsedLong3",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p7SphinxUsedLong3",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p7SpinxRangeSum5",
+            "request": "launch",
+            "mainClass": "A5PrefixSumRangeQuery.p7SpinxRangeSum5",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch P15CowArrival1",
+            "request": "launch",
+            "mainClass": "A6Sort2.P15CowArrival1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p16Explosion",
+            "request": "launch",
+            "mainClass": "A6Sort2.p16Explosion",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p20Union",
+            "request": "launch",
+            "mainClass": "A7Hashing.p20Union",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p21UniquWindow2",
+            "request": "launch",
+            "mainClass": "A7Hashing.p21UniquWindow2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p21UniqueWindow",
+            "request": "launch",
+            "mainClass": "A7Hashing.p21UniqueWindow",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p22ZeroSum",
+            "request": "launch",
+            "mainClass": "A7Hashing.p22ZeroSum",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p22ZeroSum2",
+            "request": "launch",
+            "mainClass": "A7Hashing.p22ZeroSum2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p23FreqSort",
+            "request": "launch",
+            "mainClass": "A7Hashing.p23FreqSort",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p23FreqSort2",
+            "request": "launch",
+            "mainClass": "A7Hashing.p23FreqSort2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p23FreqSort3",
+            "request": "launch",
+            "mainClass": "A7Hashing.p23FreqSort3",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p24ConsecutivAlgoU",
+            "request": "launch",
+            "mainClass": "A7Hashing.p24ConsecutivAlgoU",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p24Consecutiveness",
+            "request": "launch",
+            "mainClass": "A7Hashing.p24Consecutiveness",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p24Consecutiveness2",
+            "request": "launch",
+            "mainClass": "A7Hashing.p24Consecutiveness2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeletionInLinkList",
+            "request": "launch",
+            "mainClass": "A8LinkdList1.DeletionInLinkList",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindCycleInLinkList",
+            "request": "launch",
+            "mainClass": "A8LinkdList1.FindCycleInLinkList",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertLinkdList",
+            "request": "launch",
+            "mainClass": "A8LinkdList1.InsertLinkdList",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch addFrontAddLastWithInput",
+            "request": "launch",
+            "mainClass": "A8LinkdList1.addFrontAddLastWithInput",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p29Intersection",
+            "request": "launch",
+            "mainClass": "A8LinkdList1.p29Intersection",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p31DeepCopyLinkList",
+            "request": "launch",
+            "mainClass": "A9LinkedList2.p31DeepCopyLinkList",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillWithZeros1",
+            "request": "launch",
+            "mainClass": "Contest1Arrays.FillWithZeros1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillWithZeros2",
+            "request": "launch",
+            "mainClass": "Contest1Arrays.FillWithZeros2",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxDivideByK",
+            "request": "launch",
+            "mainClass": "Contest1Arrays.MaxDivideByK",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "Contest1Arrays.RotateArray",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reshape1",
+            "request": "launch",
+            "mainClass": "Contest2Matrix.Reshape1",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p34TOEPLITZ",
+            "request": "launch",
+            "mainClass": "Contest2Matrix.p34TOEPLITZ",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch noOfTriangles",
+            "request": "launch",
+            "mainClass": "Contest3SearchSort.noOfTriangles",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch p27Candies",
+            "request": "launch",
+            "mainClass": "Contest3SearchSort.p27Candies",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSumUse2Pointer",
+            "request": "launch",
+            "mainClass": "TopicWiseProblems.TwoPointerProblems.ThreeSumUse2Pointer",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSumInSortedArray",
+            "request": "launch",
+            "mainClass": "TopicWiseProblems.TwoPointerProblems.TwoSumInSortedArray",
+            "projectName": "DSAProblemsOnly_4b2d4372"
+        }
+    ]
+}

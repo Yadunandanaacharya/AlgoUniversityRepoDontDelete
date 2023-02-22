@@ -10,12 +10,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CP_TEMPLATE_JAVA" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,14 +39,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.FillWith0s">
-    <configuration name="FillWith0s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contest1Arrays.FillWith0s" />
+  <component name="RunManager" selected="Application.KruskalScaler">
+    <configuration name="KruskalAlgoNotWorkingNawab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalAlgoNotWorkingNawab" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contest1Arrays.*" />
+          <option name="PATTERN" value="LessonProblems.Lesson22MinSpanTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -45,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDivideByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contest1Arrays.MaxDivideByK" />
+    <configuration name="KruskalProgramiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalProgramiz" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contest1Arrays.*" />
+          <option name="PATTERN" value="LessonProblems.Lesson22MinSpanTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contest1Arrays.RotateArray" />
+    <configuration name="KruskalScaler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalScaler" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contest1Arrays.*" />
+          <option name="PATTERN" value="LessonProblems.Lesson22MinSpanTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p9ChangedWorking4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.p9ChangedWorking4" />
+    <configuration name="KruskalSparsh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonProblems.Lesson22MinSpanTree.KruskalSparsh" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2Arrays.*" />
+          <option name="PATTERN" value="LessonProblems.Lesson22MinSpanTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p9TreasureRoom5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2Arrays.p9TreasureRoom5" />
+    <configuration name="RepairRoads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A20MSTPrims.RepairRoads" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2Arrays.*" />
+          <option name="PATTERN" value="AssignmentProblems.A20MSTPrims.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FillWith0s" />
-        <item itemvalue="Application.MaxDivideByK" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.p9ChangedWorking4" />
-        <item itemvalue="Application.p9TreasureRoom5" />
+        <item itemvalue="Application.KruskalScaler" />
+        <item itemvalue="Application.KruskalProgramiz" />
+        <item itemvalue="Application.KruskalAlgoNotWorkingNawab" />
+        <item itemvalue="Application.KruskalSparsh" />
+        <item itemvalue="Application.RepairRoads" />
       </list>
     </recent_temporary>
   </component>
@@ -118,168 +128,1292 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/TwoSumInSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/TwoSumInSortedArray.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/TwoSumInSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/TwoSumInSortedArray.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>27</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>28</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>33</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>39</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>38</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>34</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>36</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TopicWiseProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/LessonProblems/TwoPointerProblems/ThreeSumUse2Pointer.java</url>
           <line>37</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
           <line>92</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
           <line>98</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
           <line>97</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
           <line>69</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
           <line>93</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom3.java</url>
           <line>55</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom3.java</url>
           <line>56</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom3.java</url>
           <line>69</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom3.java</url>
           <line>68</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom3.java</url>
           <line>59</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4Use2Pointer.java</url>
           <line>91</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4WORKING.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4WORKING.java</url>
           <line>62</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom3.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom3.java</url>
           <line>45</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9TreasureRoom4WORKING.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9TreasureRoom4WORKING.java</url>
           <line>39</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9ChangedWorking4.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9ChangedWorking4.java</url>
           <line>55</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/p9ChangedWorking4.java</url>
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A2Arrays/p9ChangedWorking4.java</url>
           <line>56</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/MaxDivideByK.java</url>
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/MaxDivideByK.java</url>
           <line>30</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros1.java</url>
           <line>45</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros1.java</url>
           <line>34</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros1.java</url>
           <line>35</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros1.java</url>
           <line>44</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A2Arrays/Contest1Arrays/FillWith0s.java</url>
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros1.java</url>
           <line>39</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A4SearchSort1/p25DirectBinarySeach.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A4SearchSort1/p25DirectBinarySeach.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A4SearchSort1/p19SqrtOfN.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A4SearchSort1/p19SqrtOfN.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A4SearchSort1/p19SqrtOfN2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p7SphinxRangeSums1.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p35MatrixSearBinarySear3.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p35MatrixSearBinarySear3.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p35MatrixSearBinarySear3.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p35MatrixSearBinarySear3.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros2.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest1Arrays/FillWithZeros2.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p7SphinxRangeSum0.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A5PrefixSumRangeQuery/p7SphinxRangeSum0.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest2Matrix/Reshape1.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest2Matrix/Reshape1.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p20Union.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p20Union.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p20Union.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p20Union.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum2.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p22ZeroSum2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort2.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort2.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort2.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24Consecutiveness2.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24Consecutiveness2.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24Consecutiveness2.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24Consecutiveness2.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/FindCycleInLinkList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/FindCycleInLinkList.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/addFrontAddLastWithInput.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/p29Intersection.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/p29Intersection.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/p29Intersection.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p21UniquWindow2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p21UniquWindow2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p21UniquWindow2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p24ConsecutivAlgoU.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p29BracketMatch.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p29BracketMatch.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p60PostFixEvalue.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p60PostFixEvalue.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p60PostFixEvalue.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p60PostFixEvalue.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codeforces - Codeforces Round 748 Div 3/A_Elections/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p62MaxRectangle.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p62MaxRectangle.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p62MaxRectangle.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p62MaxRectangle.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p62MaxRectangle.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A11StacksQueues/AssignmentProblems/p62MaxRectangle.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p69TowerOfHanoi.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p69TowerOfHanoi.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p69TowerOfHanoi.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p69TowerOfHanoi.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p70PermutString.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p70PermutString.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p70PermutString.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p70PermutString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A12Recursion/p70PermutString.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjacencyList.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjacencyList.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjacencyList.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjacencyList.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A13GraphAssignment/p73AdjacencyMatrixToList.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A13GraphAssignment/p73AdjacencyMatrixToList.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A13GraphAssignment/p73AdjacencyMatrixToList.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A13GraphAssignment/p73AdjacencyMatrixToList.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A13GraphAssignment/p73AdjacencyMatrixToList.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BfsWorking.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BfsWorking.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BFSPepcoding.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjListChangeInput.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/GFGBFS.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/GFGBFS.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/GFGBFS.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/GFGBFS.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BFS2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BFS2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BFS2.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BFS2.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BFS2.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BfsWorking.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/P72MinJumps.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS1/Dfs1Recursion.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS1/Dfs1Recursion.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A16DFS1/CompanyHierarchy.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A16DFS1/CompanyHierarchy.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A16DFS1/CompanyHierarchy.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A16DFS1/CompanyHierarchy.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS1/SizeSubTree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS1/SizeSubTree.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS1/SizeSubTree.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A16DFS1/P75RedAlert.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A16DFS1/P75RedAlert.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/CycleDFSUnDirected.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson19DFS2/Diameter.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BfsWorking.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BfsWorking.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson17BFS1/BfsWorking.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ContestProblems/Contest6/RunTheCityLeafSum.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/P72MinJumps.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/TripToAlgoLand.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/TripToAlgoLand.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/TripToAlgoLand.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/AvoidingCities.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/AvoidingCities.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/AvoidingCities.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/AvoidingCities.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/AvoidingCities.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/AvoidingCities.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/BigDiscs.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/BigDiscs.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/BigDiscs.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/BigDiscs.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/BigDiscs.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A15BFS1/BigDiscs.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/SampleDijkstraCode.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/SampleDijkstraCode.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/SampleDijkstraCode.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/SampleDijkstraCode.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/SampleDijkstraCode.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/DijkstraPriorityQueue.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/DijkstraPriorityQueue.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson21TopoSortDijkstra/DijkstraPriorityQueue.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo2.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo2.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo2.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/PrimsAlgo.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A20MSTPrims/RepairRoads.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A20MSTPrims/RepairRoads.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalAlgoNotWorkingNawab.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalAlgoNotWorkingNawab.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalAlgoNotWorkingNawab.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/ObjectSortImp/ObjectSort.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalSparsh.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalProgramiz.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalProgramiz.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/Lesson22MinSpanTree/KruskalScaler.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/InsertLinkdList.java</url>
+          <line>27</line>
+          <properties class="AssignmentProblems.A8LinkdList1.InsertLinkdList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>55</line>
+          <properties class="AssignmentProblems.A7Hashing.SortComparator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LessonProblems/A13GraphBasics/AdjacencyList.java</url>
+          <line>40</line>
+          <properties class="A13GraphBasics.GraphList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A7Hashing/p23FreqSort3.java</url>
+          <line>51</line>
+          <properties field="inputlist" class="AssignmentProblems.A7Hashing.SortComparator" />
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -287,6 +1421,13 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSAProblemSolving$MaxDivideByK.ic" NAME="MaxDivideByK Coverage Results" MODIFIED="1667642373896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>A2Arrays.Contest1Arrays.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DSAProblemSolving$p35MatrixSearBinarySear3.ic" NAME="p35MatrixSearBinarySear3 Coverage Results" MODIFIED="1668087967790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>A5PrefixSumRangeQuery.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DSAProblemSolving$Main.ic" NAME="Main Coverage Results" MODIFIED="1673023375350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DSAProblemSolving$PrimsAlgo2.ic" NAME="PrimsAlgo2 Coverage Results" MODIFIED="1676944916625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LessonProblems.Lesson22MinSpanTree.*</FILTER>
     </SUITE>
   </component>
 </project>
