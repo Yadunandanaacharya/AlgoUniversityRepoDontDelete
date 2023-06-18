@@ -1,83 +1,41 @@
-package LessonProblems.Lesson22MinSpanTree;
+package AssignmentProblems.A20MSTPrims;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import LessonProblems.Lesson22MinSpanTree.KruskalSparshWorking;
+
+import java.io.*;
 import java.util.*;
 
 /*
-https://www.scaler.com/topics/data-structures/disjoint-set/
-
 5 6
-1 2 3
-2 3 5
-2 4 2
-3 4 8
-5 1 7
-5 4 4
-
-weight sorted list: 2 3 4 5 7 8
-ans =14
-http://graphonline.ru/en/?graph=woBxkFZuNLaWWoKX
-
-
-6 7
-1 2 5
-2 1 2
-2 4 4
-4 3 3
-3 1 2
-2 6 5
-6 5 2
-
-
-5 4
-1 2 3
-2 3 5
-3 2 2
-5 4 7
-
-ans = IMPOSSIBLE
-http://graphonline.ru/en/?graph=GZmPjZixnLgJidFA
-
-
-5 3
-1 2 3
-2 3 5
-5 4 7
-http://graphonline.ru/en/?graph=GKQPeuoprlMxwUJD
-
-4 5
-0 1 1
-0 2 1
-0 3 5
-1 3 1
-2 3 2
-
-ans=3
-http://graphonline.ru/en/?graph=aDmMfevHZpRUTTJc
-
-
-check this java code try it
-https://www.scaler.com/topics/data-structures/kruskal-algorithm/
-
-
-
+1 2 100000000000000
+2 3 100000000000000
+2 4 100000000000000
+3 4 100000000000000
+5 1 100000000000000
+5 4 100000000000000
  */
-public class KruskalSparshWorking {
 
+public class RepairRoadsKruskalDSU {
     public static class Node implements Comparable<Node> {
         public int fromNode;
         public int toNode;
-        public int weight;
+        public long weight;
 
-        public Node(int fromNode,int toNode, int weight) {
+        public Node(int fromNode,int toNode, long weight) {
             this.fromNode = fromNode;
             this.toNode = toNode;
             this.weight = weight;
         }
 
+        //when long is there below doesn't work
+//        public int compareTo(Node node) {
+//            return (this.weight - node.weight);
+//        }
+
+        //changed code
+        //https://stackoverflow.com/questions/57345800/sorting-list-of-objects-by-long-property
         public int compareTo(Node node) {
-            return (this.weight - node.weight);
+            return (this.weight < node.weight) ? -1 : ((this.weight == node.weight) ? 0 : 1);
         }
     }
 
@@ -116,11 +74,11 @@ public class KruskalSparshWorking {
             return true;
         }
 
-        public int FindParent(int node) {
-            if (parent[node] < 0)
-                return node;
+        public int FindParent(int toNode) {
+            if (parent[toNode] < 0)
+                return toNode;
             else
-                return parent[node] = FindParent(parent[node]);
+                return parent[toNode] = FindParent(parent[toNode]);
         }
     }
 
@@ -135,14 +93,14 @@ public class KruskalSparshWorking {
             s = br.readLine().split(" ");
             int fromNode = Integer.parseInt(s[0]);
             int toNode = Integer.parseInt(s[1]);
-            int weight = Integer.parseInt(s[2]);
+            long weight = Long.parseLong(s[2]);
 
             edgesArrayList.add(new Node(fromNode, toNode, weight));
         }
 
         Collections.sort(edgesArrayList);
         DisjointUnionSet disjointUnionSet = new DisjointUnionSet(nodes);
-        int ans = 0;
+        long ans = 0;
         int noOfConnections = 0;
 //        for (int i = 0; i < edgesArrayList.size(); i++) { //0 based indexing
         for (int i = 0; i < edgesArrayList.size(); i++) { //1 based indexing

@@ -29,18 +29,14 @@ public class P72MinJumps {
         int noOfBuilding = Integer.parseInt(nAndMJumps[0]);
         int noOfPairs = Integer.parseInt(nAndMJumps[1]);
         GraphList g = new GraphList(noOfBuilding);
+        
         for (int i = 0; i < noOfPairs; i++) {
             String[] node1And2 = br.readLine().split(" ");
             g.AddEdge(Integer.parseInt(node1And2[0]), Integer.parseInt(node1And2[1]));
         }
+
         String[] srcAndDest = br.readLine().split(" ");
         g.BFS(Integer.parseInt(srcAndDest[0]),Integer.parseInt(srcAndDest[1]));
-    }
-
-    public ArrayList<Integer> FindPath(){
-        ArrayList<Integer> visitedList = new ArrayList<>();
-
-        return visitedList;
     }
 }
 

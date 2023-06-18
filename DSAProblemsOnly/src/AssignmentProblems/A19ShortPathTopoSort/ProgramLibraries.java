@@ -1,24 +1,9 @@
-package LessonProblems.Lesson19DFS2;
+package AssignmentProblems.A19ShortPathTopoSort;
 
 import java.io.*;
 import java.util.*;
 
 /*
-5 4
-0 1
-1 2
-2 3
-0 3
-
-above output: CYCLE
-
-4 3
-0 1
-1 2
-2 3
-
-above NO CYCEL
-
 7 7
 0 1
 2 3
@@ -27,11 +12,30 @@ above NO CYCEL
 3 5
 4 5
 4 6
- */
 
-public class CycleDFSDirected {
+2 3 0 1 4 6 5
+
+7 7
+0 1
+1 2
+2 0
+3 4
+3 5
+4 5
+4 6
+
+cycle is there b/w 0 1 2 so IMPOSSIBLE
+
+4 3
+0 1
+0 2
+1 2
+
+ */
+public class ProgramLibraries {
     public static ArrayList<ArrayList<Integer>> adjList = new ArrayList<ArrayList<Integer>>();
     public static int visited[];
+    public static List<Integer> answer = new ArrayList<>();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -46,33 +50,38 @@ public class CycleDFSDirected {
 
         for (int i = 0; i < edges; i++) {
             String[] node1And2 = br.readLine().split(" ");
+            //when you have directed graph add to adjList only once
             adjList.get(Integer.parseInt(node1And2[0])).add(Integer.parseInt(node1And2[1]));
-
-            //very very imp: for directed edge graph you'll use adjList to add only once since
-            //it's directed single edge will be there
-            //but in the case of undirected edge there won't be any direction so you'll add to
-            //adjlist twice u to v and v to u
-//            adjList.get(Integer.parseInt(node1And2[1])).add(Integer.parseInt(node1And2[0]));
         }
 
         visited = new int[vertices];
-
         for (int i = 0; i < vertices; i++) {
-            if (visited[i] == 0) {
-                if (DFSFindCycle(i, 0) == 1) {
-                    System.out.println("CYCLE");
-                    return;
-                }
+            if (visited[i] == 0 && DFSFindCycle(i, 0) == 1) {
+                System.out.println("IMPOSSIBLE");
+                return;
             }
         }
-        System.out.println("NO CYCLE");
+
+        //topo sort start
+        Arrays.fill(visited, 0);
+        for(int i = 0; i < vertices; i++) {
+            if (visited[i] == 0)
+                DFS(i);
+        }
+
+        Collections.reverse(answer);
+
+        for (int item : answer){
+            System.out.print(item + " ");
+        }
     }
 
-    //here returning 1,2,0 are important if you return 1 then only it means that cycle is there
-    //we return 1 or 2 based on coloring you can read notes for this
+    //this cycle method is for undirected, in directed we don't need checking parents and all
     public static int DFSFindCycle(int node, int parent) {
         visited[node] = 1;
-        for(int child : adjList.get(node)) {
+        boolean check = false;
+
+        for (int child : adjList.get(node)){
             if (visited[child] == 0){
                 if (DFSFindCycle(child, node) == 1){
                     return 1;
@@ -91,4 +100,15 @@ public class CycleDFSDirected {
         visited[node] = 2;
         return 0;
     }
+
+    //sparsh 
+    public static void DFS(int node) {
+        visited[node] = 1;
+        for (int child : adjList.get(node)){
+            if (visited[child] == 0)
+                DFS(child);
+        }
+        answer.add(node);
+    }
+
 }
