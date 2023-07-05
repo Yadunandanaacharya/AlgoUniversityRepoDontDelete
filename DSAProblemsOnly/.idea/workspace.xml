@@ -46,7 +46,7 @@
       <recent name="AssignmentProblems.A19ShortPathTopoSort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaysOfBuilding">
+  <component name="RunManager" selected="Application.P44BTFromInAndPreOrderTraversal">
     <configuration name="BigDiscs" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A15BFS1.BigDiscs" />
       <module name="DSAProblemsOnly" />
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportantNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestProblems.Contest5Graph1.ImportantNodes" />
+    <configuration name="P41DiamterBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A28BinaryTree.P41DiamterBinaryTree" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ContestProblems.Contest5Graph1.*" />
+          <option name="PATTERN" value="AssignmentProblems.A28BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurenceOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GFGContest94.OccurenceOfString" />
+    <configuration name="P42RightSideViewBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A28BinaryTree.P42RightSideViewBinaryTree" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GFGContest94.*" />
+          <option name="PATTERN" value="AssignmentProblems.A28BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A22DP.Tiling" />
+    <configuration name="P43BinaryTreeToMirrorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A28BinaryTree.P43BinaryTreeToMirrorTree" />
       <module name="DSAProblemsOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssignmentProblems.A22DP.*" />
+          <option name="PATTERN" value="AssignmentProblems.A28BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P44BTFromInAndPreOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A28BinaryTree.P44BTFromInAndPreOrderTraversal" />
+      <module name="DSAProblemsOnly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AssignmentProblems.A28BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WineShelfSoln" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssignmentProblems.A22DP.WineShelfSoln" />
-      <module name="DSAProblemsOnly" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AssignmentProblems.A22DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P44BTFromInAndPreOrderTraversal" />
+        <item itemvalue="Application.P42RightSideViewBinaryTree" />
+        <item itemvalue="Application.P43BinaryTreeToMirrorTree" />
+        <item itemvalue="Application.P41DiamterBinaryTree" />
         <item itemvalue="Application.WaysOfBuilding" />
-        <item itemvalue="Application.Tiling" />
-        <item itemvalue="Application.WineShelfSoln" />
-        <item itemvalue="Application.OccurenceOfString" />
-        <item itemvalue="Application.ImportantNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -1595,6 +1595,91 @@
           <line>65</line>
           <option name="timeStamp" value="496" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P41DiamterBinaryTree.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P41DiamterBinaryTree.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P41DiamterBinaryTree.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P41DiamterBinaryTree.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P41DiamterBinaryTree.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P43BinaryTreeToMirrorTree.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P43BinaryTreeToMirrorTree.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P43BinaryTreeToMirrorTree.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P43BinaryTreeToMirrorTree.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P43BinaryTreeToMirrorTree.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="513" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="515" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssignmentProblems/A28BinaryTree/P44BTFromInAndPreOrderTraversal.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="516" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/AssignmentProblems/A8LinkdList1/InsertLinkdList.java</url>
           <line>27</line>
@@ -1639,6 +1724,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="AssignmentProblems.A28BinaryTree.P41DiamterBinaryTree$Node" memberName="data" />
+        <PinnedItemInfo parentTag="AssignmentProblems.A28BinaryTree.P41DiamterBinaryTree" memberName="rootIs" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSAProblemSolving$MaxDivideByK.ic" NAME="MaxDivideByK Coverage Results" MODIFIED="1667642373896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -1653,6 +1744,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/DSAProblemSolving$PrimsAlgo2.ic" NAME="PrimsAlgo2 Coverage Results" MODIFIED="1676944916625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LessonProblems.Lesson22MinSpanTree.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DSAProblemSolving$P43BinaryTreeToMirrorTree.ic" NAME="P43BinaryTreeToMirrorTree Coverage Results" MODIFIED="1687513839643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>AssignmentProblems.A28BinaryTree.*</FILTER>
     </SUITE>
   </component>
 </project>
