@@ -1,8 +1,5 @@
 package LessonProblems.ObjectSortImp;
 
-import LessonProblems.Lesson22MinSpanTree.KruskalScaler;
-
-import java.io.*;
 import java.util.*;
 //https://mkyong.com/java/java-object-sorting-example-comparable-and-comparator/
 

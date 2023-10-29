@@ -29,6 +29,17 @@ ans=14
 2 4 6
 1 6 3
 6 4 6
+
+6 10
+0 1 2
+0 2 1
+1 5 4
+1 4 8
+2 5 3
+2 3 7
+5 4 5
+5 3 4
+4 3 8
  */
 
 public class DijkstraPriorityQueue {
@@ -63,10 +74,10 @@ public class DijkstraPriorityQueue {
 
         for (int i = 0; i < edges; i++) {
             s = br.readLine().split(" "); //same variable used above, allowed
-            int removedNode = Integer.parseInt(s[0]);
+            int fromNode = Integer.parseInt(s[0]);
             int toNode = Integer.parseInt(s[1]);
             long weight = Long.parseLong(s[2]);
-            adjList.get(removedNode).add(new Node(toNode, weight));
+            adjList.get(fromNode).add(new Node(toNode, weight));
         }
 
         Dijkstra(adjList, 1, nodes);
@@ -84,7 +95,8 @@ public class DijkstraPriorityQueue {
         //for pq below you must pass nodeComparator, or else pq can't give high priority for some node
         //with weight with passing comparator we tell give high priority for weights of node like that
 
-//        https://www.algotree.org/algorithms/minimum_spanning_tree/prims_java/
+        //https://www.algotree.org/algorithms/minimum_spanning_tree/prims_java/
+        //below is lambda function for that nodecomparator
         Comparator<Node> NodeCostComparator = (obj1, obj2) -> {
             return (int) (obj1.weight - obj2.weight);
         };

@@ -1,7 +1,5 @@
 package AssignmentProblems.A20MSTPrims;
 
-import LessonProblems.Lesson22MinSpanTree.PrimsAlgo;
-
 import java.io.*;
 import java.util.*;
 
@@ -40,7 +38,7 @@ ans=14
 2 1 2
  */
 
-public class RepairRoads {
+public class RepairRoadsPrimsLittleWrong {
     public static HashMap<Integer, ArrayList<Node>> adjList = new HashMap<>();
     public static long totalWeight = 0;
 
@@ -60,20 +58,6 @@ public class RepairRoads {
 
 //    https://github.com/cormacpayne/algorithms/blob/master/PrimsAlgorithmMST.java
 //    creating class with comparable interface
-
-//    public static class Edge1 implements Comparable<Edge1> {
-//        int  weight1 = Integer.MAX_VALUE;
-//        int toNode;
-//
-//        public Edge1(int weight1, int toNode) {
-//            this.weight1 = weight1;
-//            this.toNode = toNode;
-//        }
-//
-//        public int compareTo(Edge1 e) {
-//            return this.weight1 - e.weight1;
-//        }
-//    }
 
     public static class Edge1 {
         int  weight1 = Integer.MAX_VALUE;
@@ -144,10 +128,6 @@ public class RepairRoads {
             Node removedNode = priorityQueue.remove();
             visited[removedNode.toNode] = true;
             totalWeight += removedNode.weight;
-
-//            if (minEdges.get(removedNode.toNode).toNode != -1)
-//            if (minEdges.get(removedNode.toNode).toNode != -1)
-//                System.out.println("node " + minEdges.get(removedNode.toNode).toNode);
 
             for (Node neighbour : adjList.get(removedNode.toNode)) {
                 if (!visited[neighbour.toNode] && neighbour.weight < minEdges.get(neighbour.toNode).weight1) {

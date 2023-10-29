@@ -1,7 +1,7 @@
 package LessonProblems.Lesson22MinSpanTree;
 import java.util.*;
 
-public class KruskalScaler {
+public class KruskalScalerForUnderstanding {
     public static class Graph{
         // Using DSU to quickly
         // tell whether adding edge
